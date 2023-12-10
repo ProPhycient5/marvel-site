@@ -23,7 +23,7 @@ export const Architecture = () => {
         <div className="h-auto px-4 lg:h-60 w-10/12 base:w-32 my-5 md:my-10 flex flex-col justify-center items-center">
           <Image
             src="/asset/graphQL.png"
-            alt="apiTeam"
+            alt="graphQL"
             width={0}
             height={0}
             sizes="100hw"
@@ -38,7 +38,7 @@ export const Architecture = () => {
         <div className="h-auto px-0 lg:px-4 lg:h-60 w-10/12 base:w-32 my-5 md:my-10 flex flex-col justify-center items-center">
           <Image
             src="/asset/superchargeWorkflow.png"
-            alt="apiTeam"
+            alt="workflow"
             width={0}
             height={0}
             sizes="100hw"
@@ -62,18 +62,32 @@ export const TechIntegration = () => {
     <section id="integration">
       <div className="my-16 w-full flex justify-between flex-col-reverse base:flex-col items-center">
         <div className="w-full h-full flex justify-between flex-col-reverse base:flex-row items-center">
-          <div className="h-48 lg:h-60 w-10/12 base:w-48 my-5 md:my-10 bg-green-400">
+          <div className="h-auto lg:h-60 w-10/12 base:w-48 my-5 md:my-10 bg-green-400">
             1
           </div>
-          <div className="h-48 lg:h-60 w-10/12 base:w-48 my-5 md:my-10 bg-orange-400">
-            2
+          <div className="h-auto lg:h-60 w-10/12 base:w-48 my-5 md:my-10">
+            <Image
+              src="/asset/showcase.png"
+              alt="showcase"
+              width={0}
+              height={0}
+              sizes="100hw"
+              className="w-full h-auto sm:h-48 lg:h-full mb-2 md:mb-0"
+            />
           </div>
         </div>
         <div className="w-full h-full flex justify-between flex-col base:flex-row items-center my-28 base:my-0">
-          <div className="h-48 lg:h-60 w-10/12 base:w-48 my-5 md:my-10 bg-indigo-400">
-            3
+          <div className="h-auto lg:h-60 w-10/12 base:w-48 my-5 md:my-10">
+            <Image
+              src="/asset/botbot.png"
+              alt="showcase"
+              width={0}
+              height={0}
+              sizes="100hw"
+              className="w-full h-auto sm:h-48 lg:h-full mb-2 md:mb-0"
+            />
           </div>
-          <div className="h-48 lg:h-60 w-10/12 base:w-48 my-5 md:my-10 bg-amber-400">
+          <div className="h-auto lg:h-60 w-10/12 base:w-48 my-5 md:my-10 bg-amber-400">
             4
           </div>
         </div>
