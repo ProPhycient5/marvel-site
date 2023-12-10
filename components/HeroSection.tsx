@@ -7,12 +7,12 @@ export const HeroSection = () => {
     <section id="hero_section">
       <div className="my-32 pt-0 md:pt-12 px-0 sm:px-4 w-full flex justify-between flex-col md:flex-row items-center">
         <div className="h-56 w-full sm:w-10/12 md:w-48 mb-16 md:mb-0 flex flex-col">
-          <p className="text-white font-bold text-lg sm:text-2xl lg:text-4xl mb-4 lg:mb-8 ">
+          <p className="text-white font-bold  text-center sm:text-left text-xl sm:text-2xl lg:text-4xl mb-4 lg:mb-8 ">
             Let&#39;s build the future <br /> of the design, now.
           </p>
-          <p className="text-xs text-slate-400 text-justify md:text-left mb-4 lg:mb-8">
-            Building something special? We&#39;r always looking to work with
-            partner who wants to help the world bring their ideas to life.
+          <p className="text-xs text-slate-400 text-center md:text-left mb-4 lg:mb-8">
+            Creating amazing tools and integrations for over 2 million users or
+            customize Marvel for own team
           </p>
 
           <div className="flex flex-row w-full items-center justify-between">
