@@ -6,7 +6,7 @@ export const HeroSection_2 = () => {
   return (
     <section id="hero_section">
       <div className="my-32 pt-0 md:pt-12 px-0 sm:px-4 w-full flex justify-between flex-col md:flex-row items-center">
-        <div className="h-56 w-10/12 md:w-48 mb-16 md:mb-0 flex flex-col">
+        <div className="h-56 w-full sm:w-10/12 md:w-48 mb-16 md:mb-0 flex flex-col">
           <p className="text-white font-bold text-lg sm:text-2xl lg:text-4xl mb-4 lg:mb-8 ">
             Let&#39;s build the future <br /> of the design, now.
           </p>
@@ -16,7 +16,7 @@ export const HeroSection_2 = () => {
           </p>
 
           <div className="flex flex-row w-full items-center justify-between">
-            <button className="bg-blue-400 sm:w-48 text-xs font-semibold text-slate-100 rounded-full flex justify-center items-center py-2 px-2 sm:px-3">
+            <button className="bg-blue-400 w-48 text-xs font-semibold text-slate-100 rounded-full flex justify-center items-center py-2 px-2 sm:px-3">
               Submit your app
             </button>
             <button className="bg-slate-100 text-xs w-48 font-semibold text-slate-950 rounded-full flex justify-center items-center py-2 px-2 sm:px-3 md:mt-0">
