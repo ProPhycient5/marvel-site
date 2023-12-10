@@ -85,7 +85,7 @@ const Navbar = () => {
               })}
               <button
                 onClick={() => setNavbar(!navbar)}
-                className=" bg-slate-100 md:text-xs lg:text-base font-semibold text-slate-950 rounded-full flex justify-center items-center py-2 px-3"
+                className=" bg-slate-100 md:text-xs lg:text-sm text-slate-950 rounded-full flex justify-center items-center py-2 px-3"
               >
                 Sign up Free
               </button>
