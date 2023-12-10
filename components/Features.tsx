@@ -103,16 +103,13 @@ export const TechIntegration = () => {
               className="w-full h-auto sm:h-48 lg:h-full mb-2 md:mb-0"
             />
           </div>
-          {/* <div className="h-auto lg:h-60 w-10/12 base:w-48 my-5 md:my-10">
-            4
-          </div> */}
           <div className="h-auto lg:h-60 w-10/12 base:w-48 my-5 md:my-10 flex flex-col">
             <p className=" text-lg text-white font-semibold mb-8">
               A Slack-bot for creating <br />
               and managing prototypes
             </p>
             <div className="text-xs text-slate-400 text-justify md:text-left mb-8">
-              Building something special? We r always looking to work with
+              Building something special? We&#39;r always looking to work with
               partner who wants to help the world bring their ideas to life.
             </div>
 
