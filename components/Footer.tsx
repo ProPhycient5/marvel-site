@@ -1,6 +1,34 @@
 import React from "react";
 import Image from "next/image";
 
+const overview = [
+  "Why Marvel",
+  "Enterprise",
+  "Pricing",
+  "Request a demo",
+  "Explore",
+  "Apps",
+  "Developer API",
+];
+const features = [
+  "Wireframing",
+  "Design",
+  "Prototyping",
+  "Collaboration",
+  "Handoff",
+  "Integrations",
+  "Sketch Plugin",
+];
+const support = ["Help Center", "Terms of Service", "Privacy", "Security"];
+const marvel = [
+  "Blog",
+  "Our Team",
+  "Contact Us",
+  "Success Stories",
+  "Brand Guidelines",
+];
+const follow = ["Twitter", "Dribble", "Facebook", "Github", "Workable"];
+
 const Footer = () => {
   return (
     <footer>
@@ -16,55 +44,59 @@ const Footer = () => {
           </div>
           <div className="h-auto w-48 my-5 flex flex-col item-start">
             <p className="text-xs text-white mb-1">Overview</p>
-            <p className="text-xs text-slate-400 font-bold mb-1">Why Marvel</p>
-            <p className="text-xs text-slate-400 mb-1">Enterprise</p>
-            <p className="text-xs text-slate-400 mb-1">Pricing</p>
-            <p className="text-xs text-slate-400 mb-1">Request a demo</p>
-            <p className="text-xs text-slate-400 mb-1">Explore</p>
-            <p className="text-xs text-slate-400 mb-1">Apps</p>
-            <p className="text-xs text-slate-400 mb-1">Developer API</p>
+            {overview.map((item, idx) => {
+              return (
+                <p key={idx} className="text-xs text-slate-400 mb-1">
+                  {item}
+                </p>
+              );
+            })}
           </div>
         </div>
 
-        <div className="w-full md:w-32 px-6 md:px-0 flex flex-row justify-between items-center">
+        <div className="w-full md:w-32 px-6 md:px-0 flex flex-row justify-between">
           <div className="h-auto w-48 my-5 flex flex-col item-start">
             <p className="text-xs text-white font-bold mb-1">Features</p>
-            <p className="text-xs text-slate-400 mb-1">Why Marvel</p>
-            <p className="text-xs text-slate-400 mb-1">Enterprise</p>
-            <p className="text-xs text-slate-400 mb-1">Pricing</p>
-            <p className="text-xs text-slate-400 mb-1">Request a demo</p>
-            <p className="text-xs text-slate-400 mb-1">Explore</p>
-            <p className="text-xs text-slate-400 mb-1">Apps</p>
-            <p className="text-xs text-slate-400 mb-1">Developer API</p>
+            {features.map((item, idx) => {
+              return (
+                <p key={idx} className="text-xs text-slate-400 mb-1">
+                  {item}
+                </p>
+              );
+            })}
           </div>
           <div className="h-auto w-48 my-5 flex flex-col item-start">
             <p className="text-xs text-white font-bold mb-1">Support</p>
-            <p className="text-xs text-slate-400 mb-1">Why Marvel</p>
-            <p className="text-xs text-slate-400 mb-1">Enterprise</p>
-            <p className="text-xs text-slate-400 mb-1">Pricing</p>
-            <p className="text-xs text-slate-400 mb-1">Request a demo</p>
-            <p className="text-xs text-slate-400 mb-1">Explore</p>
-            <p className="text-xs text-slate-400 mb-1">Apps</p>
-            <p className="text-xs text-slate-400 mb-1">Developer API</p>
+            {support.map((item, idx) => {
+              return (
+                <p key={idx} className="text-xs text-slate-400 mb-1">
+                  {item}
+                </p>
+              );
+            })}
           </div>
         </div>
 
         <div className="w-full md:w-32 px-6 md:px-0 hidden sm:flex flex-row justify-between items-center">
           <div className="h-auto w-48 my-5 flex flex-col item-start">
             <p className="text-xs text-white font-bold mb-1">Marvel</p>
-            <p className="text-xs text-slate-400 mb-1">Blog</p>
-            <p className="text-xs text-slate-400 mb-1">Our Team</p>
-            <p className="text-xs text-slate-400 mb-1">Contact Us</p>
-            <p className="text-xs text-slate-400 mb-1">Success Stories</p>
-            <p className="text-xs text-slate-400 mb-1">Brand Guidelines</p>
+            {marvel.map((item, idx) => {
+              return (
+                <p key={idx} className="text-xs text-slate-400 mb-1">
+                  {item}
+                </p>
+              );
+            })}
           </div>
           <div className="h-auto w-48 my-5 flex flex-col item-start">
             <p className="text-xs text-white font-bold mb-1">Follow</p>
-            <p className="text-xs text-slate-400 mb-1">Twitter</p>
-            <p className="text-xs text-slate-400 mb-1">Dribble</p>
-            <p className="text-xs text-slate-400 mb-1">Facebook</p>
-            <p className="text-xs text-slate-400 mb-1">Github</p>
-            <p className="text-xs text-slate-400 mb-1">Workable</p>
+            {follow.map((item, idx) => {
+              return (
+                <p key={idx} className="text-xs text-slate-400 mb-1">
+                  {item}
+                </p>
+              );
+            })}
           </div>
         </div>
       </div>

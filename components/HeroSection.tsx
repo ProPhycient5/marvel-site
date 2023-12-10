@@ -2,7 +2,7 @@
 import React from "react";
 import Image from "next/image";
 
-export const HeroSection_2 = () => {
+export const HeroSection = () => {
   return (
     <section id="hero_section">
       <div className="my-32 pt-0 md:pt-12 px-0 sm:px-4 w-full flex justify-between flex-col md:flex-row items-center">
