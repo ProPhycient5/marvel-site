@@ -1,11 +1,9 @@
 "use client"; // this is a client component
 import React, { useState } from "react";
-// import { Link } from "react-scroll/modules";
-import Link from "next/link";
-import { RiMoonFill, RiSunLine } from "react-icons/ri";
 import { IoMdMenu, IoMdClose } from "react-icons/io";
 import cx from "classnames";
 import Image from "next/image";
+import Link from "next/link";
 
 interface NavItem {
   label: string;
