@@ -6,7 +6,7 @@ export const HeroSection = () => {
   return (
     <section id="hero_section">
       <div className="my-32 pt-0 md:pt-12 px-0 sm:px-4 w-full flex justify-between flex-col md:flex-row items-center">
-        <div className="h-56 w-full sm:w-10/12 md:w-48 mb-16 md:mb-0 flex flex-col">
+        <div className="h-56 w-full sm:w-10/12 md:w-48 mb-6 md:mb-0 flex flex-col">
           <h1 className="text-white font-bold  text-center sm:text-left text-xl sm:text-2xl lg:text-4xl mb-4 lg:mb-8 ">
             Let&#39;s build the future <br /> of the design, now.
           </h1>

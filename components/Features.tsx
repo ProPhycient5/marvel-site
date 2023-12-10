@@ -4,7 +4,7 @@ import Image from "next/image";
 export const Architecture = () => {
   return (
     <section id="about">
-      <div className="my-32 w-full flex justify-between flex-col base:flex-row items-center">
+      <div className="my-16 w-full flex justify-between flex-col base:flex-row items-center">
         <div className="h-auto px-4 lg:h-60 w-10/12 base:w-32 my-5 md:my-10 flex flex-col justify-center items-center">
           <Image
             src="/asset/apiTeam.png"
