@@ -61,9 +61,25 @@ export const TechIntegration = () => {
   return (
     <section id="integration">
       <div className="my-16 w-full flex justify-between flex-col-reverse base:flex-col items-center">
-        <div className="w-full h-full flex justify-between flex-col-reverse base:flex-row items-center">
-          <div className="h-auto lg:h-60 w-10/12 base:w-48 my-5 md:my-10 bg-green-400">
-            1
+        <div className="w-full px-6 h-full flex justify-between flex-col-reverse base:flex-row items-center">
+          <div className="h-auto lg:h-60 w-10/12 base:w-48 my-5 md:my-10 flex flex-col">
+            <p className=" text-lg text-white font-semibold mb-8">
+              Showcase your app in our <br />
+              integrations directory
+            </p>
+            <div className="text-xs text-slate-400 text-justify md:text-left mb-8">
+              Building something special? We r always looking to work with
+              partner who wants to help the world bring their ideas to life.
+            </div>
+
+            <div className="flex flex-col md:flex-row w-full justify-center items-center md:justify-between">
+              <button className="bg-slate-100 w-2/3 md:w-48 text-xs font-semibold text-slate-950 rounded-full flex justify-center items-center py-2 px-1 md:px-3">
+                Become a partner
+              </button>
+              <button className="text-xs w-2/3 md:w-48 font-semibold text-slate-100 rounded-full flex justify-center items-center py-2 px-3 border border-white mt-4 md:mt-0">
+                View integrations
+              </button>
+            </div>
           </div>
           <div className="h-auto lg:h-60 w-10/12 base:w-48 my-5 md:my-10">
             <Image
@@ -87,8 +103,27 @@ export const TechIntegration = () => {
               className="w-full h-auto sm:h-48 lg:h-full mb-2 md:mb-0"
             />
           </div>
-          <div className="h-auto lg:h-60 w-10/12 base:w-48 my-5 md:my-10 bg-amber-400">
+          {/* <div className="h-auto lg:h-60 w-10/12 base:w-48 my-5 md:my-10">
             4
+          </div> */}
+          <div className="h-auto lg:h-60 w-10/12 base:w-48 my-5 md:my-10 flex flex-col">
+            <p className=" text-lg text-white font-semibold mb-8">
+              A Slack-bot for creating <br />
+              and managing prototypes
+            </p>
+            <div className="text-xs text-slate-400 text-justify md:text-left mb-8">
+              Building something special? We r always looking to work with
+              partner who wants to help the world bring their ideas to life.
+            </div>
+
+            <div className="flex flex-col md:flex-row w-full justify-center items-center md:justify-between">
+              <button className="bg-slate-100 w-2/3 md:w-48 text-xs font-semibold text-slate-950 rounded-full flex justify-center items-center py-2 px-1 md:px-3">
+                View on github
+              </button>
+              <button className="text-xs w-2/3 md:w-48 font-semibold text-slate-100 rounded-full flex justify-center items-center py-2 px-3 border border-white mt-4 md:mt-0">
+                Try a demo
+              </button>
+            </div>
           </div>
         </div>
       </div>
